@@ -49,7 +49,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Movie Application
+                React Movie App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -78,12 +78,18 @@ const Work = () => {
                 Portfolio Website
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://vinod-portfolio-website.netlify.app"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="" target="_blank">
+                <a
+                  href="https://github.com/VinodSingh07/Portfolio-Website"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
