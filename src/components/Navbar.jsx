@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { FaCertificate } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -91,7 +91,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300  "
-              href="https://www.linkedin.com/in/vinod-singh-a2bb2a222/"
+              href="https://www.linkedin.com/in/vinod-singh-developer/"
               target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
@@ -109,15 +109,16 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300  "
-              href="https://mail.google.com/mail/u/2/#inbox"
+              href="https://ude.my/UC-9de196ef-2d32-4a72-93c7-3703f5485cdc/"
+              target="_blank"
             >
-              Email <HiOutlineMail size={30} />
+              Certificates <FaCertificate size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565fc9]">
             <a
               className="flex justify-between items-center w-full text-gray-300  "
-              href="https://drive.google.com/file/d/1VRvpu56lJdTGfregx2U2YZWhRLBy8TQC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1a6fbdvhNGJkER3upi8Z_042B0v7ab1NZ/view?usp=sharing/"
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />

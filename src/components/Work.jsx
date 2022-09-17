@@ -1,6 +1,7 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
+import Portfolio from "../assets/portfolio.png";
+import Covid_19_tracker from "../assets/COVID.png";
+import Restaurant from "../assets/restaurant.png";
 
 const Work = () => {
   return (
@@ -17,7 +18,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Covid_19_tracker})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -26,13 +27,16 @@ const Work = () => {
                 COVID-19 Tracker
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://covid19statswebsite.netlify.com/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/VinodSingh07/COVID-19-Tracker"
+                  href="https://github.com/VinodSingh07/COVID-19-Tracker/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -43,22 +47,25 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Restaurant})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Movie App
+                Restaurant UI
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://almoriana-restaurant-demo-site.netlify.app/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/VinodSingh07/React-Movie-Search-App"
+                  href="https://github.com/VinodSingh07/Almoriana-Website-UI/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -69,7 +76,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Portfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -79,7 +86,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://vinod-portfolio-website.netlify.app"
+                  href="https://vinod-portfolio-website.netlify.app/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -87,7 +94,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/VinodSingh07/Portfolio-Website"
+                  href="https://github.com/VinodSingh07/Portfolio-Website/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">

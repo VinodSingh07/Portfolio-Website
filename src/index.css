@@ -26,3 +26,52 @@ background-image: linear-gradient(
    hsla(242, 74%, 61%, 0.8)
 )!important;
 }
+
+/* profile animation styling */
+
+.i-title{
+   height: 50px;
+   overflow: hidden;
+ 
+}
+.i-title-wrapper {
+   height: 50px;
+   animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+   50%{
+      transform: translateY(-25px);
+   }
+   50%{
+      transform: translateY(-50px);
+   }
+   50%{
+      transform: translateY(-100px);
+   }
+}
+
+
+.i-title-item {
+   height: 50px;
+   font-size: 30px;
+   font-weight: bold;
+   color: #59b259;
+   display: flex;
+   align-items: center;
+}
+input {
+   
+   height: 40px;
+   border: none;
+   border-bottom: 1px solid black;
+   margin: 10px 0px;
+   font-size: 14px;
+   padding-left: 10px;
+}
+textarea{
+   margin: 10px 0;
+   font-size: 14px;
+   padding-left: 10px;
+
+}
